@@ -1,3 +1,3 @@
 <div>
-    {{-- The whole world belongs to you. --}}
-</div>
+    <h1>Hello From Livewire Component</h1>
+ </div>

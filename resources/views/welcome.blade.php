@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Hello Livewire</h1>
+    @livewire('hello-world')
 @livewireScripts
 </body>
 </html>
