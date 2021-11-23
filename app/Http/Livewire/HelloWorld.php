@@ -11,9 +11,9 @@ class HelloWorld extends Component
     public $active = false;
     public $country = "PS";
 
-    public function resetTitle()
+    public function resetTitle($title)
     {
-        $this->title = '';
+        $this->title = $title;
     }
     public function render()
     {

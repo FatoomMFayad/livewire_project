@@ -13,5 +13,5 @@
     @if($active)<p>Active</p>@endif
     <p>{{ $country }}</p>
     <p>My Name is {{ $name }}</p>
-    <button wire:click="resetTitle">reset</button>
+    <button wire:click="resetTitle('livewire')">reset</button>
  </div>
