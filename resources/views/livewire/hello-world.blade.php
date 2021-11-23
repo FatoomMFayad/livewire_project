@@ -1,6 +1,6 @@
 <div>
     <h1>Hello From Livewire Component</h1>
-    <input wire:model="title" type="text" name="title" />
+    <input wire:model.lazy="title" type="text" name="title" />
     <textarea wire:model="body"></textarea>
     <input type="checkbox" wire:model="active"/>
     <select wire:model="country">
@@ -13,4 +13,5 @@
     @if($active)<p>Active</p>@endif
     <p>{{ $country }}</p>
     <p>My Name is {{ $name }}</p>
+    <button wire:click="resetTitle">reset</button>
  </div>

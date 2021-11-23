@@ -10,6 +10,11 @@ class HelloWorld extends Component
     public $body;
     public $active = false;
     public $country = "PS";
+
+    public function resetTitle()
+    {
+        $this->title = '';
+    }
     public function render()
     {
         return view('livewire.hello-world',[
