@@ -7,10 +7,8 @@ use Livewire\Component;
 class HelloWorld extends Component
 {
     public $name = 'Fatoom';
-    public $loud = false;
-    public $greeting = ['Hello'];
 
-    public function resetName($name = 'Hanan')
+    public function mount($name)
     {
         $this->name = $name;
     }
