@@ -1,3 +1,3 @@
 <div>
-    @livewire('say-hi')
+    @livewire('say-hi', ['name' => $name])
 </div>

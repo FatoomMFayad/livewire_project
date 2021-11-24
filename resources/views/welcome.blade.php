@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    @livewire('hello-world', ['name' => 'Chico'])
+    @livewire('hello-world')
 @livewireScripts
 </body>
 </html>
