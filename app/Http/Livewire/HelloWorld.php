@@ -13,6 +13,11 @@ class HelloWorld extends Component
         $this->name = $name;
     }
 
+    public function hydrate()
+    {
+        $this->name = 'hydrated@';
+    }
+
     public function render()
     {
         return view('livewire.hello-world');
