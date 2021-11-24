@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class HelloWorld extends Component
 {
-    public $name = 'Fatoom';
+    public $names = ['Fatoom', 'Omar', 'Zain'];
 
     public function render()
     {
