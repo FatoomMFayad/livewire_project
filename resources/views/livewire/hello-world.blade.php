@@ -1,5 +1,3 @@
 <div>
-    <input wire:model="name" type="text">
-
-    Hello {{ $name }}
+    @livewire('say-hi')
 </div>
