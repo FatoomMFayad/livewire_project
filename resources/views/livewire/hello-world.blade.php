@@ -6,5 +6,8 @@
         <option>Goodbye</option>
         <option>C U</option>
     </select>
+
     {{implode(', ', $greeting)}} {{ $name }}@if($loud)!@endif
- </div>
+
+    <button wire:click="resetName">Reset Name</button>
+</div>
