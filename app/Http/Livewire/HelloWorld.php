@@ -18,6 +18,11 @@ class HelloWorld extends Component
         $this->name = 'hydrated@';
     }
 
+    public function updated()
+    {
+        $this->name = 'updated';
+    }
+
     public function render()
     {
         return view('livewire.hello-world');
