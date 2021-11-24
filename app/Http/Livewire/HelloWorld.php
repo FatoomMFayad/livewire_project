@@ -6,10 +6,7 @@ use Livewire\Component;
 
 class HelloWorld extends Component
 {
-    public $title = 'Hello World!';
-    public $body;
-    public $active = false;
-    public $country = "PS";
+    public $name = 'Fatoom';
 
     public function resetTitle($title)
     {
@@ -17,8 +14,6 @@ class HelloWorld extends Component
     }
     public function render()
     {
-        return view('livewire.hello-world',[
-            'name' => 'Fatoom Fayad'
-        ]);
+        return view('livewire.hello-world');
     }
 }
