@@ -9,5 +9,5 @@
 
     {{implode(', ', $greeting)}} {{ $name }}@if($loud)!@endif
 
-    <button wire:click="resetName">Reset Name</button>
+    <button wire:click="resetName('Bingo')">Reset Name</button>
 </div>

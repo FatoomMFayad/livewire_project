@@ -10,9 +10,9 @@ class HelloWorld extends Component
     public $loud = false;
     public $greeting = ['Hello'];
 
-    public function resetName()
+    public function resetName($name = 'Hanan')
     {
-        $this->name = 'Hanan';
+        $this->name = $name;
     }
 
     public function render()
